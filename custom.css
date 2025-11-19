@@ -1,0 +1,94 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+body {
+	  	font-family: "Fuzzy Bubbles", sans-serif;
+  		font-weight: 400;
+  		font-style: normal;
+  		background-color: #264773 !important;
+	}
+
+h2 {
+		color: #FFFFFF;
+		text-shadow: 2px 2px 5px black;
+		background-color: #BFA380;
+		text-transform: uppercase;
+ 		border: 2px dashed #F2D6B3;
+  		padding-top: 20px;
+  		padding-bottom: 20px;
+ 		margin: 30px;
+ 		margin-top: 30px;
+ 		margin-bottom:30px;
+ 		text-align: center;
+	}
+
+section {
+	margin-top: 30px;
+ 	margin-bottom:80px;
+}
+
+p, h5 {
+	color: #FFFFFF;
+	text-shadow: 5px 5px 10px black;
+}
+
+header {
+	background-image: url("images/heroimage.png");
+	background-size: cover;
+}
+
+.bg-primary {
+    background-color: #264773 !important;
+}
+
+.carousel-caption { 
+	top: 100%; 
+}
+
+.carousel-inner { 
+	padding-bottom: 8rem;
+	overflow: hidden; 
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: #D9BC9A !important;
+}
+
+.box {
+  width: 600px;
+  height: 500px;
+  border: 10px dashed #F2D6B3;
+  border-radius: 30%;
+  background-color: #BFA380;
+  padding: 105px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.enlarged-text {
+		font-size: 1.75em;
+	  	font-weight: bold;
+	}
+
+.btn-outline-light, .btn-primary {
+    --bs-btn-color: #FFFFFF;
+    --bs-btn-bg: #D9BC9A;
+    text-shadow: 2px 2px 5px black;
+    --bs-btn-border-color: #FFFFFF;
+    --bs-btn-hover-color: #FFFFFF;
+    --bs-btn-hover-bg: #BFA380;
+    --bs-btn-hover-border-color: #BFA380;
+    --bs-btn-focus-shadow-rgb: 248, 249, 250;
+    --bs-btn-active-color: #D9BC9A;
+    --bs-btn-active-bg: #D9BC9A;
+    --bs-btn-active-border-color: #D9BC9A;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FFFFFF;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #f8f9fa;
+    --bs-gradient: none;
+}
+
+.bg-light {
+	background-color: #264773 !important;
+}
